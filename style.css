@@ -313,6 +313,7 @@ header {
   width: 100%;
   max-width: 1000px;
   justify-items: center;
+  color: white;
 }
 
 /* ---------- CARD ---------- */
@@ -418,7 +419,7 @@ header {
   top: 0;
   bottom: 0;
   width: 2px;
-  background: rgba(255,255,255,0.25);
+  background: gray;
   transform: translateX(-50%);
 }
 
@@ -471,6 +472,7 @@ header {
   margin-bottom: 14px;
   line-height: 1.6;
   font-size: 15px;
+  color: white;
 }
 
 /* ARROWS */
@@ -496,16 +498,15 @@ header {
 
 /* DATE ALIGNMENT */
 .nodeone {
-  margin-top: -470px;
+  margin-top: -445px;
 }
 
 .nodetwo {
-  margin-top: -493px;
+  margin-top: -470px;
 }
 
 .date {
   font-size: 15px;
-  color: #cfd0ff;
   white-space: nowrap;
 }
 
@@ -548,14 +549,24 @@ header {
       margin-top: 50px;
     }
 
+    /* TIMELINE EXPERIENCE */
+    .card h2{color:var(--accent); margin:0 0 18px; font-weight:700}
+    .card h4{color:var(--accent); margin:0 0 18px; font-weight:700}
+
     /* Sections */
     .section-title{font-size:35px; color:var(--accent); font-weight:800; margin:10px 0 34px}
     .comment{color:var(--muted); margin-bottom:22px}
 
     .tools-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:40px}
     .tools-column h4{color:var(--accent); margin:0 0 18px; font-weight:700}
-    .tools-column ul{list-style:none; padding:0; margin:0}
-    .tools-column li{padding:14px 0}
+    .tools-column ul{list-style:none; padding:0; margin:0;}
+    .tools-column li{padding:14px 0;}
+
+
+   
+
+
+    
 
     /* Contact */
     .contact-section{display:flex; gap:40px; align-items:flex-start; margin-top:50px}

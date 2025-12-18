@@ -49,16 +49,6 @@ window.addEventListener("scroll", () => {
   });
   });
 
-  //  /* TIMELINE EXPERIENCE */
-
-
-
-
-
-
-
-   /* TIMELINE EXPERIENCE */
-
 
 // set year
   document.getElementById('year').textContent = new Date().getFullYear();
@@ -81,8 +71,6 @@ window.addEventListener("scroll", () => {
       }
     })
   });
-
-//Arrow Animations
 
 // intersection observer for reveal 
 const reveals = document.querySelectorAll('.reveal');
