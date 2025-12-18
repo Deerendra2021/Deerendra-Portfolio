@@ -49,6 +49,16 @@ window.addEventListener("scroll", () => {
   });
   });
 
+  //  /* TIMELINE EXPERIENCE */
+
+
+
+
+
+
+
+   /* TIMELINE EXPERIENCE */
+
 
 // set year
   document.getElementById('year').textContent = new Date().getFullYear();
